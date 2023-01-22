@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+#layout {
+    height: 100%;
+}
+
+#emails-view {
+    height: 100%;
+}
+
+#details-view {
+    background: #D3D3D3;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+h3 {
+    padding-bottom: 1rem;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    padding: 0;
+    margin: 1rem;
+    font-size: 20px;
+}
+
+h6,
+h5,
+p {
+    margin: 0px;
+}
+
+.single-email {
+    border: 1px solid grey;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+textarea {
+    min-height: 400px !important;
+}
+
+.read {
+    background-color: lightgrey;
+}
+
+.notred {
+    background-color: #fafafa;
+}
